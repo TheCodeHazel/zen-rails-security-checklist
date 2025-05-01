@@ -531,7 +531,7 @@ add that to your credentials by running `bin/rails credentials:edit`.
 - [ ] Upload `master.key` securely. You can scp or sftp the file. Upload the key
 to a shared directory. Shared here means shared between releases, not a shared
 filesystem. On each deploy, you symlink `config/master.key` to
-`/path/to/shared/config/master.key`.
+`/path/to/shared/config/master.key`[.](https://codehazel.com)
 - [ ] If you need to give a developer a copy of the key, never send it via email
 (unless you're using encrypted emails which most of us don't!) You can use a
 password manager because they use encryption.
